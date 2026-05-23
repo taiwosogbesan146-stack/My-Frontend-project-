@@ -48,8 +48,8 @@ themeBtn.addEventListener('click', () => {
   document.body.classList.toggle('light-mode');
 
   if (document.body.classList.contains('light-mode')) {
-    themeBtn.innerHTML = '🌙';
+    themeBtn.innerHTML = '<img src="icon-sun.svg">';
   } else {
-    themeBtn.innerHTML = '☀';
+    themeBtn.innerHTML = '<img src="icon-moon.svg">';
   }
 });
