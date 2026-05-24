@@ -36,9 +36,9 @@ body {
 }
 
 .logo-icon {
-  width: 52px;
+  width: 200px;
   height: 52px;
-  background: linear-gradient(135deg, #ff6b6b, #ff4d8d);
+  filter: brightness(0) invert(1);
   border-radius: 16px;
   display: flex;
   justify-content: center;
